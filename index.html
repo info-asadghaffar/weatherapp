@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <h1>Weather App</h1>
+    <form onsubmit="getweather(); return false;">
+        <label for="cityname">City Name</label>
+        <p><input type="text" name="cityname" id="temp1" placeholder="Enter Your Weather App" required></p>
+        <button type="submit">Click Now</button>
+        <h4 id="change">Your Current Temperuture will be show here</h4>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
